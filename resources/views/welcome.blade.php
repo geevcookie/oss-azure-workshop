@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Microsoft Azure</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -77,6 +77,7 @@
                 <div class="links">
                     <a href="https://azure.microsoft.com/en-us/free/" target="_blank">Sign Up</a>
                     <a href="https://portal.azure.com" target="_blank">Azure Portal</a>
+                    <a href="{{ url('/bing') }}">Text To Speech</a>
                 </div>
             </div>
         </div>
