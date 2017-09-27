@@ -2,6 +2,6 @@
 
 return [
     'bing' => [
-        'key' => ''
+        'key' => env('BING_KEY')
     ]
 ];
