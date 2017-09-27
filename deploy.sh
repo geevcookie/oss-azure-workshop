@@ -105,4 +105,9 @@ if [ -e "$DEPLOYMENT_TARGET/composer.json" ]; then
   exitWithMessageOnError "Composer install failed"
   popd
 fi
+
+# 5. Set Application Key
+if [ ! -f "$DEPLOYMENT_TARGET/.env" ]; then
+    php artisan key:generate
+fi
 ##################################################################################################################################echo "Finished successfully."
