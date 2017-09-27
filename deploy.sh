@@ -108,6 +108,7 @@ fi
 
 # 5. Set Application Key
 if [ ! -f "$DEPLOYMENT_TARGET/.env" ]; then
+    pushd "$DEPLOYMENT_TARGET"
     php artisan key:generate
 fi
 ##################################################################################################################################echo "Finished successfully."
